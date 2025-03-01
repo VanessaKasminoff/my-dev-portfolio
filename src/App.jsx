@@ -3,13 +3,14 @@ import "./assets/css/App.css";
 
 //COMPONENTS
 import Header from "./components/Header";
+import Hero from "./components/Hero";
 
 function App() {
   return (
     <div id="App">
       <Header />
       <main>
-        <h1>Hello World!</h1>
+        <Hero />
       </main>
     </div>
   );

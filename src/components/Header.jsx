@@ -1,8 +1,11 @@
 const Header = () => {
   return (
     <header className="header">
-      <a href="#">
+      <a className="main-nav-link" href="#">
         <p className="name-logo">NAME/LOGO</p>
+      </a>
+      <a href="#">
+        <p>Toggle</p>
       </a>
       <nav className="main-nav">
         <ul className="main-nav-list">

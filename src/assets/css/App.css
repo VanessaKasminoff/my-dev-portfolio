@@ -1,8 +1,4 @@
-/* 
-
-
-
-*/
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
 
 :root {
   --light-bg: #f7f0f5;
@@ -10,6 +6,7 @@
   --dark-purple: #160c28;
   --light-purple: #6874e8;
   --blue: #5da9e9;
+  --font: "Quicksand", sans-serif;
 }
 
 * {
@@ -18,7 +15,62 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 62.5%;
+}
+
 body {
   background-color: var(--light-bg);
   color: var(--primary-color);
+  font-family: var(--font);
 }
+
+/* HEADER */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 7rem;
+  padding: 0 4.8rem;
+}
+
+.main-nav-list {
+  display: flex;
+  gap: 3.2rem;
+  list-style: none;
+}
+
+.main-nav-link,
+.main-nav-link:visited {
+  text-decoration: none;
+  color: var(--primary-color);
+  font-size: 2rem;
+}
+
+/* .main-nav-link:hover,
+.main-nav-link:active {
+  
+} */
+
+/* HEADER */
+
+/* HERO */
+.hero-section {
+  padding: 4.8rem;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero-img {
+  width: 50%;
+}
+
+.down-arrow {
+  font-size: 5rem;
+}
+/* HERO */
